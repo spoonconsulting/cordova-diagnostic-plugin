@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -23,7 +24,21 @@
             </feature>
         </config-file>
         
-
+        <!-- Default usage descriptions: override as necessary in .plist -->
+        
+        <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
+            <string>Add GPS tags to camera images</string>
+        </config-file>
+        
+        <!-- iOS >=11 -->
+        <config-file target="*-Info.plist" parent="NSLocationAlwaysAndWhenInUseUsageDescription">
+            <string>Add GPS tags to camera images</string>
+        </config-file>
+        
+        <!-- iOS <=10 -->
+        <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
+            <string>Add GPS tags to camera images</string>
+        </config-file>
         
         <config-file target="*-Info.plist" parent="NSCalendarsUsageDescription">
             <string>This app requires calendar access to function properly.</string>
