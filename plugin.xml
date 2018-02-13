@@ -44,9 +44,7 @@
             <string>This app requires calendar access to function properly.</string>
         </config-file>
 
-        <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
-            <string>This app requires photo library access to function properly.</string>
-        </config-file>
+      
 
         <config-file target="*-Info.plist" parent="NSBluetoothPeripheralUsageDescription">
             <string>This app requires bluetooth access to function properly.</string>
@@ -56,10 +54,7 @@
             <string>This app requires microphone access to function properly.</string>
         </config-file>
 
-        <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-            <string>This app requires camera access to function properly.</string>
-        </config-file>
-
+      
         <config-file target="*-Info.plist" parent="NSMotionUsageDescription">
             <string>This app requires motion detection access to function properly.</string>
         </config-file>
