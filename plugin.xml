@@ -25,6 +25,13 @@
         </config-file>
         
         <!-- Default usage descriptions: override as necessary in .plist -->
+        <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+            <string>This App requires access to photo library access to let  you choose pictures that you would like to upload.</string></string>
+        </config-file>
+
+        <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+             <string>This App requires camera access to let you take the pictures that you would like to upload.</string>
+        </config-file>
         
         <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
             <string>Add GPS tags to camera images</string>
