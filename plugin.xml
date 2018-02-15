@@ -26,7 +26,7 @@
         
         <!-- Default usage descriptions: override as necessary in .plist -->
         <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
-            <string>This App requires access to photo library access to let  you choose pictures that you would like to upload.</string></string>
+            <string>This App requires access to photo library access to let  you choose pictures that you would like to upload.</string>
         </config-file>
 
         <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
